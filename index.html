@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ranjun Peng</title>
+<meta name="description" content="Ranjun Peng — Artificial Intelligence undergraduate at MUST. Research interests: large language models and AI for software engineering.">
+<style>
+  :root{
+    --text:#222; --muted:#666; --accent:#C9141D; --line:#e4e4e4; --bg:#fff;
+  }
+  *{box-sizing:border-box;}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--text); background:var(--bg);
+    max-width:760px; margin:0 auto; padding:48px 24px 72px;
+    line-height:1.6; font-size:16px;
+  }
+  a{color:var(--accent); text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  header{display:flex; gap:28px; align-items:center; margin-bottom:8px;}
+  header .info{flex:1;}
+  header h1{font-size:30px; margin:0 0 6px; letter-spacing:.2px;}
+  header .tagline{color:var(--text); font-weight:600; margin:0 0 8px;}
+  header .contact{color:var(--muted); font-size:14.5px;}
+  header .contact a{color:var(--muted);}
+  header .contact a:hover{color:var(--accent);}
+  header img{width:118px; height:118px; border-radius:8px; object-fit:cover; flex-shrink:0;}
+  h2{
+    font-size:15px; text-transform:uppercase; letter-spacing:1px;
+    color:var(--accent); margin:34px 0 6px; padding-bottom:5px;
+    border-bottom:1px solid var(--line);
+  }
+  p{margin:10px 0;}
+  .pub{margin:14px 0;}
+  .pub .title{font-weight:600;}
+  .pub .authors{font-size:15px;}
+  .pub .venue{color:var(--muted); font-size:14.5px; font-style:italic;}
+  .me{color:var(--text); border-bottom:1.5px solid var(--accent);}
+  .proj{margin:12px 0;}
+  .proj .name{font-weight:600;}
+  .proj .stack{color:var(--muted); font-size:13.5px;}
+  .edu .deg{font-weight:600;}
+  .news li{margin:4px 0; font-size:15px;}
+  .news .yr{color:var(--accent); font-weight:600; margin-right:8px;}
+  ul{padding-left:20px; margin:8px 0;}
+  footer{margin-top:48px; padding-top:14px; border-top:1px solid var(--line);
+    color:var(--muted); font-size:13px; text-align:center;}
+  @media (max-width:560px){
+    body{padding:32px 18px 56px;}
+    header{flex-direction:column-reverse; align-items:flex-start; gap:16px;}
+    header img{width:96px; height:96px;}
+    header h1{font-size:26px;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="info">
+    <h1>Ranjun Peng <span style="font-weight:400;color:var(--muted);font-size:20px;">彭然君</span></h1>
+    <p class="tagline">AI undergraduate &middot; LLMs &amp; AI for Software Engineering</p>
+    <p class="contact">
+      Macau University of Science and Technology<br>
+      <a href="mailto:1230024861@student.must.edu.mo">1230024861@student.must.edu.mo</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://github.com/davidpengrj">GitHub</a>
+      &nbsp;&middot;&nbsp;
+      <a href="Ranjun_Peng_CV.pdf">CV</a>
+    </p>
+  </div>
+  <img src="avatar.jpg" alt="Ranjun Peng">
+</header>
+
+<section>
+  <h2>About</h2>
+  <p>
+    I am a third-year undergraduate in Artificial Intelligence at the
+    Macau University of Science and Technology (MUST). My research interests center on
+    <strong>large language models</strong> and <strong>AI for software engineering</strong>,
+    and I have broad hands-on experience applying machine learning to industrial- and
+    chemical-process modeling. In my sophomore year I worked as a
+    <strong>research assistant at Shanghai Jiao Tong University</strong>
+    (Department of Automation), under the guidance of Prof. Shaoyuan Li.
+    I have (co-)authored four papers, including a sole first-authored empirical study
+    currently under review at ACM TOSEM.
+  </p>
+</section>
+
+<section>
+  <h2>News</h2>
+  <ul class="news" style="list-style:none;padding-left:0;">
+    <li><span class="yr">2025</span> Empirical study on uncertainty quantification for software defect prediction submitted to <strong>ACM TOSEM</strong> (CCF-A).</li>
+    <li><span class="yr">2025</span> Paper published in <strong>Industrial &amp; Engineering Chemistry Research</strong> (ACS).</li>
+    <li><span class="yr">2025</span> Papers accepted at <strong>CPCC 2025</strong> and <strong>CCC 2025</strong>.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Publications</h2>
+
+  <div class="pub">
+    <div class="title">Understanding Software Defect Prediction: A Large-scale Empirical Study Across Uncertainty Quantification and Performance Evaluation</div>
+    <div class="authors"><span class="me">Ranjun Peng</span> (sole first author)</div>
+    <div class="venue">Under review, ACM Transactions on Software Engineering and Methodology (TOSEM) &middot; CCF-A</div>
+  </div>
+
+  <div class="pub">
+    <div class="title">Data Feature-Constrained GAN Data Generation for NIR Spectral Predictive Model Calibration</div>
+    <div class="authors"><span class="me">Ranjun Peng</span>, Mingyu Liang</div>
+    <div class="venue">36th Chinese Process Control Conference (CPCC 2025)</div>
+  </div>
+
+  <div class="pub">
+    <div class="title">Dictionary Learning-Based Knowledge Fusion ESN Hybrid Modeling: A Chemical Key Variable Modeling Approach Integrating Empirical Knowledge</div>
+    <div class="authors">Mingyu Liang, <span class="me">Ranjun Peng</span>, Shaoyuan Li</div>
+    <div class="venue">Industrial &amp; Engineering Chemistry Research (ACS), 2025 &middot;
+      <a href="https://doi.org/10.1021/acs.iecr.5c01050">10.1021/acs.iecr.5c01050</a></div>
+  </div>
+
+  <div class="pub">
+    <div class="title">Towards Hybrid Modeling of Process Industries with Dynamic Mechanism and Data Augmentation</div>
+    <div class="authors">Mingyu Liang, <span class="me">Ranjun Peng</span>, Yi Zheng, Shaoyuan Li</div>
+    <div class="venue">44th Chinese Control Conference (CCC 2025)</div>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div class="proj">
+    <div class="name">AI Closet &mdash; Vision-LLM Wardrobe Assistant</div>
+    <div>Parses garment photos into structured tags (category / color / style / occasion) via a Vision LLM and recommends outfits with preference-feedback re-ranking.</div>
+    <div class="stack">Next.js &middot; React &middot; TypeScript &middot; OpenAI Vision</div>
+  </div>
+  <div class="proj">
+    <div class="name">Soul Saber &mdash; On-device Interactive AI System</div>
+    <div>Real-time gesture recognition from a 6-axis IMU (&lt;50&nbsp;ms) paired with an ASR&nbsp;&rarr;&nbsp;LLM&nbsp;&rarr;&nbsp;TTS voice-interaction pipeline.</div>
+    <div class="stack">ESP32-S3 &middot; Arduino C++ &middot; Python</div>
+  </div>
+</section>
+
+<section class="edu">
+  <h2>Education</h2>
+  <p>
+    <span class="deg">B.Sc. in Artificial Intelligence</span><br>
+    Macau University of Science and Technology &middot; 2023 &ndash; 2027 (expected)
+  </p>
+</section>
+
+<footer>
+  &copy; 2026 Ranjun Peng &middot; Built with plain HTML on GitHub Pages
+</footer>
+
+</body>
+</html>
