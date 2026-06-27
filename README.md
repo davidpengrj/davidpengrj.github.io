@@ -1,6 +1,6 @@
 # davidpengrj.github.io
 
-Personal academic homepage of **Ranjun Peng** (彭然君).
+Personal academic homepage of **Ranjun Peng**.
 
 🔗 Live: https://davidpengrj.github.io
 
